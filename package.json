@@ -1,0 +1,31 @@
+{
+  "name": "ups-tracker",
+  "version": "1.0.0",
+  "description": "Tool for tracking multiple UPS shippings.",
+  "main": "index.js",
+  "bin": {
+    "main": "index.js"
+  },
+  "scripts": {
+    "pkg": "npx pkg . -t node16-win-x64 --out-path dist --public",
+    "postbuild": "cp -R ./node_modules/puppeteer/.local-chromium dist/chromium",
+    "csv": "cp -R info.csv dist",
+    "build": "npm run pkg && npm run postbuild && npm run csv"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "figlet": "^1.5.0",
+    "puppeteer": "^5.5.0",
+    "puppeteer-extra": "^3.1.15",
+    "puppeteer-extra-plugin-stealth": "^2.6.5"
+  },
+  "pkg": {
+    "scripts": [],
+    "assets": [
+      "./node_modules/figlet/fonts/ansi shadow.flf"
+    ],
+    "targets": []
+  }
+}
