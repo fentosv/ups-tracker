@@ -1,3 +1,5 @@
+> ⚠ I created this repository years ago, while studying and practising coding. This is not a real sample of my current coding skill. ;)
+
 # UPS-Tracker
 
 > Tool for tracking multiple UPS shippings.
