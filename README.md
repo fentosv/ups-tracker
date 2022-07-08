@@ -5,8 +5,8 @@
 ## Usage
 
 ### First time
-
 * On the root, edit ``info.csv`` file with the shipping info you want to track.
+* ``region`` field is just for setting the image name.
 * Run ``npm run build``.
 * Go to ``dist`` and run the executable.
 * Wait until the script finishes and check ``/SCREENSHOOTS``.
@@ -15,4 +15,6 @@
 * Just edit the csv file on the root and run ``npm run csv`` or directly edit ``/dist/info.csv``.
 * Go to ``dist`` and run the executable.
 * Wait until the script finishes and check ``/SCREENSHOOTS``.
+
+
 
