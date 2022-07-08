@@ -1,4 +1,4 @@
-> ⚠ I created this repository years ago, while studying and practising coding. This is not a real sample of my current coding skill. ;)
+> ⚠ I created this repository years ago, while studying and practising coding. This is not a real sample of my current coding skills. ;)
 
 # UPS-Tracker
 
